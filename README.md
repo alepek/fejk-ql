@@ -10,6 +10,7 @@ This library serves to act as a mock of one or many GraphQL graphs. It does so b
   * [fejk-ql](#fejk-ql)
   * [Table of contents](#table-of-contents)
   * [Why fejk-ql](#why-fejk-ql)
+    * [How fejk-ql is different from built in graph-ql-tools mocking](#how-fejk-ql-is-different-from-built-in-graph-ql-tools-mocking)
   * [Requirements](#requirements)
   * [Getting started](#getting-started)
   * [Mock folder](#mock-folder)
@@ -29,7 +30,7 @@ For development you may or may not have an API available to you. If you have the
 
 For testing you might not want to depend on other services than the application you are testing. fejk-ql can be run in the same process as your web app, or side by side, to make application testing without dependencies to other services simple.
 
-## How is this different from built in graph-ql-tools mocking?
+## How fejk-ql is different from built in graph-ql-tools mocking
 
 This library offers client-driven statefulness and a mock format, and saves you the time to configure graphql-tools yourself. If you're fine with configuring graphql-tools and don't have a need for faking statefulness, this library might not be for you.
 
