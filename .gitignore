@@ -1,0 +1,24 @@
+node_modules/
+
+# Misc files
+*.DS_Store
+.wercker
+
+# Logs
+*.logs
+*.log
+
+# Coverage directory used by tools like nyc
+.nyc_output
+esdoc
+coverage
+jest-coverage
+
+# Users Environment Variables
+.lock-wscript
+.idea
+.vscode
+
+# Editors
+*.sublime-project
+*.sublime-workspace
