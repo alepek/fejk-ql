@@ -39,7 +39,7 @@ module.exports = (req, res, next) => {
 
   // If we've found a middleware - let it handle the response.
   // Otherwise, respond with a 500.
-  return middleware ?
-    middleware(req, res, next) :
-    res.status(500).send(`No compatible graph found for name "${graphName}"`);
+  return middleware
+    ? middleware(req, res, next)
+    : res.status(500).send(`No compatible graph found for name "${graphName}"`);
 };
