@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/alepek/fejk-ql.svg?style=svg)](https://circleci.com/gh/alepek/fejk-ql)
+
 # fejk-ql
 
 A stateless GraphQL mock with stateful capabilities.
