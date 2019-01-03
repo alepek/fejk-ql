@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const { graphiqlExpress } = require('apollo-server-express');
-const fejkQL = require('fejk-ql');
+const fejkQL = require('../src/index');
 
 const PORT = process.env.PORT || 4000;
 const app = express();
