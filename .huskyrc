@@ -1,0 +1,7 @@
+{
+  "skipCI": false,
+  "hooks": {
+    "pre-commit": "yarn run lint",
+    "pre-push": "yarn run test"
+  }
+}
